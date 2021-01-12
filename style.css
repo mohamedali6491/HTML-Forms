@@ -1,0 +1,193 @@
+body{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(236, 238, 241);
+}
+.contanier{
+width: 100%;
+}
+
+header{
+    display: grid;
+    grid-template: auto auto/auto;
+    justify-content: end;
+    align-items: center;
+    justify-items: center;
+    line-height: 5px;
+    column-gap: 20px;
+    padding-right: 20px;
+
+}
+
+header p,a{
+    font-size: 12px;
+    font-weight: 400;
+    word-spacing: normal;
+    line-height: 2px;
+    top: 0;
+    padding-top: 0;
+}
+
+header a{
+text-decoration: none;
+color: rgb(0, 119, 197);
+padding-bottom: 5px;
+}
+
+.btn{
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 34px;
+    font-weight: 400;
+    font-size: 15px;
+    display: flex;
+    padding-top: 7px;
+    padding-left: 20px;
+    background: rgb(0, 119, 197);
+    color: #ffffff;
+    text-align: center;
+    border: #3b3b3b 1px solid;
+    grid-column: 2;
+    grid-row: 1 / 3;
+    
+}
+
+header button img{
+    width: 20px;
+    height: 20px;
+    
+}
+
+main{
+    width: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  
+}
+
+main header{
+    width: 90vw;
+    height: 10vh;
+}
+
+fieldset{
+    background: #ffffff;
+    border: 1px solid #b4b4b4;
+    width: 330px;
+    height: 660px;
+}
+
+.logo{
+  width: 95px;
+  height: 36px;
+  background-image: url(img/logo.png);
+  margin: 40px 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: baseline;
+    align-items: center;
+}
+
+label{
+    line-height: 30px;
+}
+
+label input{
+    width: 318px;
+    height: 25px;
+}
+
+.note{
+    font-size: xx-small;
+}
+
+.c{
+    text-align: center;
+}
+
+.s{
+    font-size: 12px;
+    line-height: 19px;
+    font-weight: 400;
+    white-space: normal;
+    width: 318px;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+form .btn{
+   margin-top: 30px;
+    height: 50px;
+    width: 318px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+fieldset footer{
+width: 100%;
+height: 50px;
+
+
+margin-right: 12px;
+font-size: 10px;
+line-height: 14px;
+font-weight: 400;
+display: flex;
+justify-content: center;
+justify-items: center;
+align-items: center;
+}
+
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 80px;
+}
+footer ul li{
+    display: inline;
+}
+footer ul li a{
+    margin: 0 10px 20px 20px;
+    text-decoration: none;
+    color: #3b3b3b;
+}
+
+footer p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 10px;
+    color: rgb(82, 82, 82);
+    text-align: center;
+    
+}
+
+.settings{
+ 
+    float: right;
+    width: 120px;
+    height: 40px;
+    margin-right: 60px;
+    border: none;
+    background: rgb(107, 108, 114);
+    color: #ffffff;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 500;
+    z-index: -1;
+    bottom: 0;
+}
